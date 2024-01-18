@@ -140,4 +140,8 @@ padding: 50px 0px;
 }
 .bannerr_inner_section .banner_image{
 padding: 20px;
+
 }
+.bannerr_inner_section .banner_image img{
+    border-radius: 50%;
+    }
