@@ -127,16 +127,3 @@ padding: 12px 0px;
 max-width: 1250px;
 padding: 0px 10px;
 }
-@media screen and (max-width:800px) {
-.page_width{
-    width: 600px;
-}
-   
-}
-
-@media screen and (max-width:600px) {
-.page_width{
-    width: 400px;
-}
-   
-}
