@@ -140,10 +140,3 @@ padding: 0px 10px;
 }
    
 }
-
-@media screen and (max-width:400px) {
-.page_width{
-    width: auto;
-}
-   
-}
