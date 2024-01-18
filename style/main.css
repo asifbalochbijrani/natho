@@ -121,3 +121,15 @@ line-height: 30px; /* 166.667% */
 padding: 12px 0px;
 
 }
+
+/* banner sectin */
+.page_width{
+max-width: 1250px;
+padding: 0px 10px;
+}
+@media screen and (max-width:800px) {
+body{
+      background-color: #058B8C;
+    }
+   
+}
