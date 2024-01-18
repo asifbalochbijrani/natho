@@ -5,3 +5,119 @@
     box-sizing: border-box;
     font-family: 'Rubik', sans-serif;
 }
+header{
+max-width:1250px;
+margin: auto;
+padding: 10px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+nav ul li{
+    display: inline-block;
+    padding: 0px 20px;
+    color: #C4C4C4;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+nav ul li:hover{
+    
+    color: #058B8C;
+    cursor: pointer;
+}
+.header_btn{
+    border-radius: 48px;
+background: #058B8C;
+box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.20), 3px 4px 10px 0px rgba(0, 0, 0, 0.20) inset;
+padding: 10px 30px;
+color: white;
+}
+.header_btn:hover{
+    color: white;
+}
+/* footer */
+footer{
+    max-width: 1250px;
+    margin: auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+}
+.coloum_three ul li{
+    list-style: none;
+    color: #8F8F8F;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    padding: 12px 0px;
+}
+.news_letter{
+    display: flex;
+    padding: 15px 0px;
+}
+.news_letter input{
+    width: 80%;
+    border-radius: 341px;
+    border: 2px solid #058B8C;
+    height: 35px;
+    padding: 15px;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px; /* 166.667% */
+}
+.news_letter button{
+    width:23%;
+    margin-left: 1rem;
+    border-radius: 48px;
+    background: #058B8C;
+    box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.20), 3px 4px 10px 0px rgba(0, 0, 0, 0.20) inset;
+    color: white;
+    border: none; 
+}
+.coloum_two{
+    padding: 12px 0px;
+    line-height: 30px; 
+    list-style: none;
+    color: #8F8F8F;
+    
+}
+.coloum_two ul li{
+    list-style: none;
+    color: #8F8F8F;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    padding: 12px 0px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+  }
+  #home_footer{
+    color: #1E1E1E;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; 
+  }
+  .footer_content{
+color: #8F8F8F;
+font-family: Rubik;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+padding: 12px 0px;
+
+}
