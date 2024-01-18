@@ -125,5 +125,19 @@ padding: 12px 0px;
 /* banner sectin */
 .page_width{
 max-width: 1250px;
+margin: auto;
 padding: 0px 10px;
+}
+.bannerr_section{
+padding: 50px 0px;
+
+}
+.bannerr_inner_section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+
+}
+.bannerr_inner_section .banner_image{
+padding: 20px;
 }
